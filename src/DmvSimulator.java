@@ -9,7 +9,7 @@ public class DmvSimulator {
 		Random rand = new Random();
 		
 		
-		int userNum = rand.nextInt(101);
+		int userNum = rand.nextInt(201);
 		
 		//int userNum = 10;
 		
@@ -26,7 +26,7 @@ public class DmvSimulator {
 				count = count + 1;
 				System.out.println("Next number is: " + count);
 			
-			if (count == 100)
+			if (count == 200)
 			{
 				count = 0;
 			}
