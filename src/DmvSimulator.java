@@ -32,7 +32,7 @@ public class DmvSimulator {
 			}
 			if (count == userNum)
 			{
-				System.out.println("Sorry, you do not have the required paperwork.");
+				System.out.println("HEY MORON, YOU DO NOT HAVE THE REQUIRED PAPERWORK.");
 				yourTurn = true;
 			}
 		}
