@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.SplittableRandom;
 
 public class DmvSimulator {
 
@@ -7,7 +8,10 @@ public class DmvSimulator {
 		System.out.println("Hello user welcome to the DMV Simulator.");
 
 		Random rand = new Random();
+		SplittableRandom random = new SplittableRandom();
+		boolean whoKnows = random.nextInt(101) == 1;
 		
+		//boolean whoKnows = random.nextInt(1, 101) == 1;
 		
 		int userNum = rand.nextInt(201);
 		
@@ -32,8 +36,18 @@ public class DmvSimulator {
 			}
 			if (count == userNum)
 			{
+				if(whoKnows)
+				{
+					System.out.println("You have all paperwork!");
+					yourTurn = true;	
+				}
+				else
+				{
+				//System.out.println(whoKnows);
 				System.out.println("HEY MORON, YOU DO NOT HAVE THE REQUIRED PAPERWORK.");
 				yourTurn = true;
+				
+				}
 			}
 		}
 	}
