@@ -44,10 +44,9 @@ public class DmvSimulator {
 				else
 				{
 				//System.out.println(whoKnows);
-
-				System.out.println("HEY MORON, YOU DO NOT HAVE THE REQUIRED PAPERWORK!!! LOL YOU SUCK MWAHAHAHAHHAHAHAHAHA!");
-
+				System.out.println("HEY MORON, YOU DO NOT HAVE THE REQUIRED PAPERWORK.");
 				System.out.println("MWAHAHAHAHA!");
+				System.out.println("vim is kinda cool");
 				yourTurn = true;
 				
 				}
